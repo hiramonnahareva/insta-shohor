@@ -79,41 +79,46 @@
         </main>
         <!-- bonus questions -->
         <section>
-            <h1 class="text-center text-info">Bonus Part</h1>
+            <h1 class="text-center mt-5">Bonus Part</h1>
             <!-- question-1: how does javascript works -->
         <div class="container">
-            <div class="row">
-               <div class="col-12 col-md-6">
-                <div class="card bg-info p-5 border-0 my-5 me-5 h-75">
-                    প্রথমে ওয়েব পেজ তৈরি করার জন্য এইচটিমল এবং সিএসএসকে ডম দ্বারা এবং  স্ক্রিপ্ট ট্যাগ  দ্বারা জাভাস্ক্রিপ্ট ফাইলকে একত্রিত করা হয় । তারপর ব্রাউজারে জাভাস্ক্রিপ্ট ইঞ্জিন জাভাস্ক্রিপ্ট ফাইল এবং ইনলাইন জাভাস্ক্রিপ্ট  কোড লোড করে । কিন্তু এটি   এইচটিমল এবং সিএসএস লোডিং করার  পর তার কার্যক্রম শুরু করে । এর ফলে ডম এর উপাদানগুলো সঠিকভাবে পরিবর্তন হতে পারে । এরপর  জাভাস্ক্রিপ্টের কোডগুলো লাইনের পর  লাইন কার্যক্রম সম্পাদন করে এবং ধারাবাহিকতা বজায় রাখে । এজন্য  জাভাস্ক্রিপ্টকে "singal threaded synchronous programming lenguage" বলা হয় ।
-                </div>
+                <div class="card p-5 border-0 my-5 me-5 h-75">
+                    <h3 class="text-center mb-4">Javascript কিভাবে কাজ করে । </h3>
+                    <p>
+                        প্রথমে ওয়েব পেইজ তৈরি করার জন্য html এবং css কে dom দ্বারা একত্রিত করা হয় । তারপর ব্রাউজারে javascript ইঞ্জিন javascript ফাইল এবং ইনলাইন javascript  কোড লোড করে । কিন্তু এটি html এবং css লোডিং করার পর তার কার্যক্রম শুরু করে । এর ফলে dom এর উপাদানগুলো সঠিকভাবে পরিবর্তন হতে পারে । এরপর  javascript এর কোডগুলো লাইনের পর  লাইন কার্যক্রম সম্পাদন করে এবং ধারাবাহিকতা বজায় রাখে । এজন্য  javascript কে "singal threaded synchronous programming lenguage" বলা হয় ।
+                    </p>
                </div>
-                <div class="col-12 col-md-6 ">
-                    <div class="card bg-info p-5 border-0 my-5 h-75">
-                        <div class="row">
-                            <ul class="col-6">
-                                <li>
-                                  local storage 
-                                </li>
-                                <li>
-                                    
-                                </li>
-                                <li>
-                                 
-                                </li>
-                            </ul>
-                            <ul class="col-6">
-                                <li>
-                                 session storage  
-                                </li>
-                                <li>
-                                  
-                                </li>
-                                <li>
-                                
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="card p-5 border-0 my-5">
+                            <h3 class="text-center mb-4"> Local storage এবং Session storage এর মধ্যে পার্থক্য  । </h3>
+                            <table>
+                                <tr>
+                                    <th> Local storage</th>
+                                    <th>Session storage </th>
+                                </tr>
+                                <tr>
+                                    <td>local storage এ স্থায়ী ভাবে ডাটা জমা হয় ।
+                                    </td>
+                                    <td>
+                                        session storage এ অস্থায়ী ভাবে ডাটা জমা হয় ।
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        যে ট্যাব এ local storage এর মান সেট করে হয়েছে সেটি বন্ধ করে নতুন করে ট্যাব খুললেও local storage এর ডাটাগুলো থেকে যায় । 
+                                    </td>
+                                    <td>
+                                        পুরাতন ট্যাবে সেট করা মান নতুন ট্যাব এ থাকে না। তাই  নতুন ট্যাবে session storage এর মান নতুন করে সেট করতে হয় । 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        local storage এর মান ক্লিয়ার করা না পর্যন্ত local storage এর ডাটাগুলো থেকে যায় । তাই কোনো কারণে কম্পিউটার বন্ধ হয়ে গেলেও ইউজারকে ভেল্যুগুলো নতুন করে সেট করাতে হয় না । 
+                                    </td>
+                                    <td>
+                                        session storage যেহেতু অস্থায়ীভাবে ডাটা জমা করে তাই কম্পিউটার বন্ধ হয়ে গেলে বা নতুন ব্রাউজার উইন্ডো খুললে  ইউজাকে নতুন করে ভেল্যুগুলো সেট করাতে হয়। 
+                                    </td>
+                                </tr>
+                            </table>
                     </div>
                 </div>
             </div>

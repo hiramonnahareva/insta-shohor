@@ -244,7 +244,19 @@ img {
 #reported{
   display: none;
 }
-
+.card{
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  background-color: rgb(226, 237, 255) !important;
+}
+table,th,td {
+  border:1px solid black !important;
+  /* text-align: center; */
+  padding: 20px;
+}
+.card>p {
+  line-height: 2rem;
+}
 @media only screen and (max-width: 992px) {
   #posts {
     grid-template-columns: repeat(2, 1fr);
